@@ -1,0 +1,269 @@
+@charset "UTF-8";
+boby {
+  color: #666;
+  font-size: 14px;
+  font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif; }
+
+.login_wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: -webkit-box;
+  text-align: center; }
+
+.login_wrap {
+  /* margin-bottom: 80px; */
+  /* height: 560px; */
+  height: 617px;
+  width: 854px;
+  margin: 0 auto;
+  background-color: #ffffff; }
+
+.login_layout {
+  padding-bottom: 10px;
+  /* height: 550px; */
+  height: 607px;
+  width: 854px;
+  text-align: center;
+  padding-bottom: 10px; }
+
+.login_frame {
+  padding-bottom: 30px;
+  border-radius: 0;
+  padding-top: 0;
+  background: #fff;
+  padding: 0px 34px 30px;
+  width: 786px;
+  /* height: 520px; */
+  height: 577px; }
+
+/* 小米的logo */
+.login_logo {
+  width: 786px;
+  height: 48px;
+  padding-bottom: 40px; }
+
+.login_logo a {
+  width: 127px;
+  height: 33px;
+  margin: 0 auto;
+  display: block;
+  cursor: default;
+  background-image: url(https://gwimages.acer.com.cn/uploads/whole/13e8d541d74ed1b43876c3da0b44c3b9.png); }
+
+/* 注册小米账号 标题 */
+.login_wrap-title {
+  text-align: center; }
+
+/* 注册小米账号 */
+.login_wrap-title h4 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.5; }
+
+/* 整个注册页面的大盒子 */
+.login_regbox {
+  width: 332px;
+  height: 248px;
+  padding: 30px 0;
+  line-height: 20px;
+  margin: 0 auto;
+  color: #666666; }
+
+.login_message {
+  width: 332px;
+  /* height: 248px; */
+  height: 305px; }
+
+/* 提示文本 */
+.login_message h4 {
+  padding-bottom: 5px;
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left; }
+
+/* 选择地址 */
+.login_bitbox {
+  padding-bottom: 15px;
+  position: relative; }
+
+.login_place {
+  height: 40px;
+  width: 316px;
+  padding-left: 14px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  color: #555;
+  cursor: pointer; }
+
+.login_place p {
+  font-size: 14px;
+  float: left;
+  width: 275px;
+  border-right: 1px solid #e8e8e8;
+  cursor: pointer;
+  display: block;
+  text-align: left; }
+
+.login_place i {
+  float: right;
+  background: url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png);
+  width: 16px;
+  height: 16px;
+  margin: 11px 12px 0 12px; }
+
+/* 成功注册账号 */
+.login_txt-success {
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 14px; }
+
+/* 输入手机号 */
+.login_listwrap {
+  width: 332px;
+  padding-bottom: 15px;
+  height: 42px; }
+
+.login_listtit {
+  float: left;
+  font-size: 14px;
+  width: 54px;
+  text-align: center;
+  padding: 0 9px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  color: #555;
+  cursor: pointer; }
+
+.login_listtit p {
+  color: #555;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px; }
+
+/* 输入手机号的输入框 */
+.login_inputbg1 {
+  float: left;
+  width: 257px;
+  height: 44px; }
+
+.login_inputbg1 label {
+  margin-left: -1px;
+  position: relative;
+  z-index: 3;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  border: 1px solid #e8e8e8; }
+
+.login_inputbg1 .login_input {
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  display: inline-block;
+  color: #333;
+  background: none;
+  border: 0 none;
+  width: 236px;
+  font-size: 100%; }
+
+/* 立即注册的按钮 */
+.login_sub {
+  width: 332px;
+  height: 42px; }
+
+.login_sub .login_submit {
+  width: 330px;
+  height: 42px;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  background-color: #ff6700;
+  margin-top: 15px;
+  color: #fff; }
+/* 立即登录 */
+.login_sub2{
+  width: 332px;
+  height: 42px;
+}
+.login_sub2 p{
+  width: 330px;
+  height: 42px;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  background-color: #ff6700;
+  margin-top: 15px;
+}
+.login_sub2 p a{
+  color: #fff;
+}
+
+/* 密码 */
+.login_password {
+  width: 332px;
+  padding-bottom: 15px;
+  height: 42px; }
+
+.login_password .login_inputpass {
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  display: inline-block;
+  color: #333;
+  background: none;
+  border: 1px solid #e8e8e8;
+  font-size: 100%;
+  width: 312px; }
+
+.alert {
+  margin: 0px;
+  padding: 2px;
+  text-align: center;
+  display: none; }
+
+/* 隐私协议 */
+.login-privacy_box {
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 70px; }
+
+.login_wrap-msg {
+  color: #9d9d9d;
+  font-size: 14px; }
+
+/* 脚的部分 */
+.login_footer {
+  width: 854px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center; }
+
+.login_footer-link li {
+  display: inline-block; }
+
+.login_footer-link li a {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 14px; }
+
+.active {
+  color: #333; }
+
+.login_footer-bottom {
+  color: #9d9d9d;
+  font-size: 14px;
+  padding: 10px; }

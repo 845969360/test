@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/styleall.css">
+    <link rel="stylesheet" href="./css/shopping.css">
+    <script src="./js/require.js" async="true" defer data-main="js/shoppingEnter"></script>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/styleall.css">
+</head>
+<body>
+    <header>
+        <!-- 整个区域 -->
+        <div class="nav">
+            <!-- 里面的大盒子 -->
+            <div class="nav_box">
+               
+                <!-- 首页注册 -->
+                <div class="nav_top">
+                    <div class="nav_top-text">
+                        <!-- 首页 -->
+                        <div class="nav_help">
+                            <a href="./index.html" >首页</a>
+                            <a href="#">咨询中心</a>
+                            <a href="#">社交平台</a>
+                        </div>
+                    
+                        <!-- 登录注册 -->
+                        <div class="nav_login">
+                            <p>Acer客户服务热线：400-700-1000 &nbsp;&nbsp;/&nbsp;&nbsp;商用售前热线：400-810-0118</p>
+                            <div>
+                                <a href="./login.html" target="_parent"><i class="iconfont icon-denglu"></i>登录</a>
+                                <a href="./signIn.html" target="_parent">|&nbsp;&nbsp;注册</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 下半部分 -->
+                <!-- 电器选项 -->
+                <div class="nav_shopping">
+                    <a href="index.html" class="nav_logo">
+                        <img src="https://gwimages.acer.com.cn/uploads/whole/13e8d541d74ed1b43876c3da0b44c3b9.png" alt="logo">
+                    </a>
+                    <div class="nav_main">
+                        <div id="list-nav" class="list-nav l">  
+                            <!-- 假数据  -->
+                            <!-- <div class = 'list-item'>
+                                <h4>宏碁商城<i class="iconfont icon-tubiao-"></i></h4>
+                                <ul class = 'childlist'>
+                                    <li><a href="#">212 </a><i class="iconfont icon-xiangyoujiantou"></i></li>
+                                    <li><a href="#">212</a></li>
+                                    <li><a href="#">212</a></li>
+                                    <li><a href="#">212</a></li>
+                                    <li><a href="#">212</a></li>
+                                    <li><a href="#">212</a></li>
+                                   
+                            </div>
+                            <div class = 'list-item'>
+                                <h4>宏碁商城</h4>
+                                <ul class = 'childlist'>
+                                    <li>
+                                    </li>
+                                </ul> 
+                            </div> -->
+                        </div>
+                
+                        <!-- 中间分栏 -->
+                        <div class = 'list-item'>
+                            <h4 class="title"></h4>
+                            <ul class = 'childlist'>
+                        </div>
+
+                        <!-- 右侧搜索栏 -->
+                        <div class="nav_search">
+                            <div class="nav_search-box">
+                                <input type="text" placeholder="Swift7 Triton 700">
+                                <div class="nav_search-submit">
+                                    <a href="#" class="nav_bor0">轻薄</a>
+                                    <a href="#" class="nav_bor">电竞</a>
+                                    <a href="#" class="nav_bor2">时尚</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+        <div class="shopp_bigbox">
+            <div class="shopp_box">
+                <div class="shopp_tit">
+                    <table class="btu_use">
+                        <thead >
+                            <!-- checked="true" -->
+                            <th><input type="checkbox" id="boxAll" checked="true">全选</th>
+                            <th>商品图片</th>
+                            <th>型号</th>
+                            <th>单价</th>
+                            <th>数量</th>
+                            <th>小计</th>
+                            <th>操作</th>
+                        </thead>
+                        <!-- 假数据 -->
+                        <tbody class="shopp_com" id="bububu">
+                            <!-- <tr>
+                                <td><input type="checkbox"></td>
+                                <td><img src="./images/1.jpg" alt=""></td>
+                                <td>2、${arr[j].brief}</td>
+                                <td>3、${arr[j].price}</td>
+                                实现商品数量的增减
+                                <td>
+                                    <div class="sc_goodsNum">
+                                        <button>-</button>
+                                        <span>${newArr[i].num}</span>
+                                        <span>555</span>
+                                        <button>+</button>
+                                    </div>
+                                </td>
+                                <td>5、price*num=sum</td>
+                                <td><div class="delete_goodsBtn">删除</div></td>
+                            </tr> -->
+                            
+                        </tbody>
+                    </table>
+                    <div class="total">
+                        <div><span id="clearCar">清除购物车</span></div>
+                        <div><span><a href="./list.html">跳转商品列表页</a></span></div>
+                        <div><button>结算：</button>
+                        <span class="total_sum">0</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <iframe src="./footer.html" width="100%" height="374px" scrolling="no" frameborder="0" style="vertical-align:bottom"></iframe>
+    </body>
+</html>

@@ -1,0 +1,166 @@
+.nav {
+  height: 130px;
+  overflow: visible;
+  position: relative;
+  z-index: 99999;
+  background: #fff;
+  border-bottom: 1px solid #b8b8b8;
+  position: relative;
+  z-index: 14; }
+  .nav .nav_box {
+    height: 130px;
+    width: 100%; }
+    .nav .nav_box .nav_top {
+      width: 100%;
+      font-size: 12px;
+      height: 40px;
+      background: #272727;
+      height: 40px; }
+      .nav .nav_box .nav_top .nav_top-text {
+        color: #fff;
+        overflow: visible;
+        position: relative;
+        z-index: 99;
+        width: 1367px;
+        margin: 0 auto;
+        height: 100%; }
+        .nav .nav_box .nav_top .nav_top-text .nav_help {
+          float: left;
+          height: 40px; }
+          .nav .nav_box .nav_top .nav_top-text .nav_help a {
+            margin-left: 35px;
+            line-height: 40px; }
+        .nav .nav_box .nav_top .nav_top-text a {
+          display: block;
+          color: #fff;
+          font-size: 12px;
+          height: 40px;
+          line-height: 14px;
+          float: left; }
+      .nav .nav_box .nav_top .nav_login {
+        float: right; }
+        .nav .nav_box .nav_top .nav_login p {
+          float: left;
+          font-size: 12px;
+          margin-right: 52px;
+          height: 100%;
+          line-height: 40px; }
+        .nav .nav_box .nav_top .nav_login div {
+          float: left; }
+          .nav .nav_box .nav_top .nav_login div a {
+            font-size: 14px;
+            padding-right: 10px;
+            display: block;
+            height: 100%;
+            line-height: 40px; }
+            .nav .nav_box .nav_top .nav_login div a i {
+              margin-right: 10px; }
+    .nav .nav_box .nav_shopping {
+      width: 1367px;
+      margin: 0 auto;
+      height: 90px;
+      clear: both; }
+      .nav .nav_box .nav_shopping .nav_logo {
+        float: left;
+        display: block;
+        width: 127px;
+        margin-left: 35px;
+        padding: 28px 0; }
+      .nav .nav_box .nav_shopping .nav_main {
+        height: 100%;
+        width: 1093px;
+        float: right;
+        position: relative; }
+        .nav .nav_box .nav_shopping .nav_main .list-nav {
+          width: 826px;
+          height: 90px;
+          float: left;
+          cursor: pointer; }
+          .nav .nav_box .nav_shopping .nav_main .list-nav .list-item {
+            float: left;
+            width: 118px; }
+            .nav .nav_box .nav_shopping .nav_main .list-nav .list-item h4 {
+              margin: 0 auto;
+              font-size: 18px;
+              height: 90px;
+              line-height: 90px;
+              text-align: center; }
+              .nav .nav_box .nav_shopping .nav_main .list-nav .list-item h4 i {
+                width: auto;
+                max-width: 22px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+                color: #aaaaaa; }
+            .nav .nav_box .nav_shopping .nav_main .list-nav .list-item h4:hover {
+              color: #78bc27; }
+            .nav .nav_box .nav_shopping .nav_main .list-nav .list-item h4:hover i {
+              color: #78bc27; }
+            .nav .nav_box .nav_shopping .nav_main .list-nav .list-item ul {
+              z-index: 15;
+              position: relative;
+              margin-top: -20px;
+              width: 232px;
+              height: auto;
+              display: none;
+              background-color: #ffffff; }
+              .nav .nav_box .nav_shopping .nav_main .list-nav .list-item ul li {
+                cursor: pointer;
+                line-height: 30px;
+                height: 30px;
+                padding: 5px 0; }
+                .nav .nav_box .nav_shopping .nav_main .list-nav .list-item ul li a {
+                  font-weight: bold;
+                  font-size: 14px;
+                  color: #333333;
+                  padding-left: 25px; }
+                .nav .nav_box .nav_shopping .nav_main .list-nav .list-item ul li i {
+                  float: right;
+                  margin-right: 30px; }
+              .nav .nav_box .nav_shopping .nav_main .list-nav .list-item ul li:hover a {
+                color: #78bc27; }
+          .nav .nav_box .nav_shopping .nav_main .list-nav .list-item:hover ul {
+            display: block; }
+          .nav .nav_box .nav_shopping .nav_main .list-nav .list-item:nth-child(1) {
+            color: #ff8410; }
+          .nav .nav_box .nav_shopping .nav_main .list-nav .list-item:nth-child(2) {
+            color: #F0582A; }
+        .nav .nav_box .nav_shopping .nav_main .nav_search {
+          float: left;
+          width: 234px;
+          height: 70px;
+          padding: 20px 0 0 11px;
+          border-left: 1px solid #b8b8b8;
+          border-right: 1px solid #b8b8b8; }
+          .nav .nav_box .nav_shopping .nav_main .nav_search .nav_search-box {
+            width: 184px;
+            height: 64px;
+            overflow: hidden;
+            display: block;
+            float: left; }
+            .nav .nav_box .nav_shopping .nav_main .nav_search .nav_search-box input {
+              width: 180px;
+              height: 36px;
+              padding: 0 12px;
+              background: #ebebeb;
+              color: #969696;
+              font-size: 14px;
+              border: none; }
+            .nav .nav_box .nav_shopping .nav_main .nav_search .nav_search-box .nav_search-submit {
+              height: 20px;
+              overflow: hidden;
+              margin: 7px 0 1px; }
+              .nav .nav_box .nav_shopping .nav_main .nav_search .nav_search-box .nav_search-submit a {
+                margin-bottom: 6px;
+                display: inline-block;
+                font-size: 12px;
+                color: #5c5c5c;
+                line-height: 14px; }
+              .nav .nav_box .nav_shopping .nav_main .nav_search .nav_search-box .nav_search-submit .nav_bor0 {
+                padding-right: 8px; }
+              .nav .nav_box .nav_shopping .nav_main .nav_search .nav_search-box .nav_search-submit .nav_bor {
+                padding: 0 8px;
+                border-left: 1px solid #5c5c5c;
+                border-right: 1px solid #5c5c5c; }
+              .nav .nav_box .nav_shopping .nav_main .nav_search .nav_search-box .nav_search-submit .nav_bor2 {
+                padding-left: 8px; }

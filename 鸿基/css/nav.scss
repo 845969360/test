@@ -1,0 +1,271 @@
+.nav{
+    height: 130px;
+    overflow: visible;
+    position: relative;
+    z-index: 99999;
+    background: #fff;
+    border-bottom: 1px solid #b8b8b8;
+    position: relative;
+    z-index: 14;
+
+// 里面的大盒子
+    .nav_box{
+        height: 130px;
+        width: 100%;
+        // 最上面的黑色背景部分
+        .nav_top{
+            width: 100%;
+            font-size: 12px;
+            height: 40px;
+            background: #272727;
+            height: 40px;
+            // 里面居中部分
+            .nav_top-text{
+                color: #fff;
+                overflow: visible;
+                position: relative;
+                z-index: 99;
+                width: 1367px;
+                margin: 0 auto;
+                height: 100%;
+                // 左侧首页
+                .nav_help{
+                    float: left;
+                    height: 40px;
+                    a{
+                        margin-left: 35px;
+                        line-height: 40px;
+                    }
+                }
+                a{
+                    display: block;
+                    color: #fff;
+                    font-size: 12px;
+                    height: 40px;
+                    line-height: 14px;
+                    float: left;
+                }
+            }
+            // 右侧登录注册部分
+            .nav_login{
+                float: right;
+                // 服务热线
+                p{
+                    float: left;
+                    font-size: 12px;
+                    margin-right: 52px;
+                    height: 100%;
+                    line-height: 40px;
+                    }
+                    // 登录注册
+                div{
+                    float: left;
+                    a{
+                        font-size: 14px;
+                        padding-right: 10px;
+                        display: block;
+                        height: 100%;
+                        line-height: 40px;
+                        i{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        // 下面的div
+        .nav_shopping{
+            width: 1367px;
+            margin: 0 auto;
+            height: 90px;
+            clear: both;
+            // 左侧logo
+            .nav_logo{
+                float: left;
+                display: block;
+                width: 127px;
+                margin-left: 35px;
+                padding:  28px 0;
+            }
+            // 右面的选项卡和搜索框整个大盒子
+            .nav_main{
+                height: 100%;
+                width: 1093px;
+                float: right;
+                position: relative;
+                // 中间的选项卡
+                // .nav_flnav{
+                //     float: left;
+                //     display: block;
+                //     width: 818px;
+                //     height: 100px;
+                //     margin-right: 20px;
+                //     li{
+                //         float: left;
+                //         position: relative;
+                //         padding: 25px 0;
+                //         display: block;
+                //         a{
+                //             margin: 0 12px;
+                //             overflow: hidden;
+                //             display: block;
+                //             font-size: 18px;
+                //             line-height: 40px;
+                //             color: #1a1a1a;
+                //             i{
+                //                 width: auto;
+                //                 max-width: 22px;
+                //                 display: inline-block;
+                //                 vertical-align: middle;
+                //                 margin-left: 10px;
+                //                 color: #aaaaaa;
+                //             }
+                //         }
+                //     }
+                //     .nav_pcshow a{
+                //         color: #ff8410;
+                //         i{color: #ff8410;}
+                //     }
+                //     .nav_other a{
+                //         color: #F0582A;
+                //     }
+                // }
+                
+                // .show{
+                //             position: absolute;
+                //             left: 140px;
+                //             top: 62px;
+                //             float: left;
+                //             z-index: 9;
+                //             width: 223px;
+                //             // height: 200px;
+                //             height: auto;
+                //             background-color: red;
+                //         }
+
+                    .list-nav{
+                        width: 826px;
+                        height: 90px;
+                        float: left;
+                        cursor: pointer;
+                        // background-color: red;
+                        .list-item{
+                            float: left;
+                            width: 118px;
+                            // background-color: #226677;
+
+                            h4{
+                                margin: 0 auto;
+                                font-size: 18px;
+                                height: 90px;
+                                line-height: 90px;
+                                text-align: center;
+                                i{
+                                    width: auto;
+                                    max-width: 22px;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    margin-left: 10px;
+                                    color: #aaaaaa;
+                                }
+                            }
+                            h4:hover{
+                                color: #78bc27;
+                            }
+                            h4:hover i{
+                                color: #78bc27;
+                            }
+                            ul{
+                                z-index: 15;
+                                position: relative;
+                                margin-top: -20px;
+                                width: 232px;
+                                height: auto;
+                                display: none;
+                                background-color: #ffffff;
+                                li{
+                                    cursor: pointer;
+                                    line-height: 30px;
+                                    height: 30px;
+                                    padding: 5px 0;
+                                    a{
+                                        font-weight: bold;
+                                        font-size: 14px;
+                                        color: #333333;
+                                        padding-left: 25px;
+                                    }
+                                    i{
+                                         float: right; 
+                                         margin-right: 30px;  
+                                    }
+                                }
+                                li:hover a{
+                                    color: #78bc27;
+                                }
+                            }
+                        }
+                        .list-item:hover ul{
+                            display: block;
+                        }
+                        .list-item:nth-child(1){
+                            color: #ff8410;
+                        }
+                        .list-item:nth-child(2){
+                            color: #F0582A;
+                        }
+                    }
+
+
+                // 右侧搜索框整个大盒子
+                .nav_search{
+                    float: left;
+                    width: 234px;
+                    height: 70px;
+                    padding: 20px 0 0 11px;
+                    border-left: 1px solid #b8b8b8;
+                    border-right: 1px solid #b8b8b8;
+                    // 定位搜索框的小盒子
+                    .nav_search-box{
+                        width: 184px;
+                        height: 64px;
+                        overflow: hidden;
+                        display: block;
+                        float: left;
+                        // 搜索框
+                        input{
+                            width: 180px;
+                            height: 36px;
+                            // width: 150px;
+                            padding: 0 12px;
+                            // height: 32px;
+                            background: #ebebeb;
+                            color: #969696;
+                            font-size: 14px;
+                            border: none;
+                        }
+                        // 搜索框下面选项卡
+                        .nav_search-submit{
+                            height: 20px;
+                            overflow: hidden;
+                            margin: 7px 0 1px;
+                            a{
+                                margin-bottom: 6px;
+                                display: inline-block;
+                                font-size: 12px;
+                                color: #5c5c5c;
+                                line-height: 14px;
+                            }
+                            .nav_bor0{padding-right: 8px;}
+                            .nav_bor{
+                                padding: 0 8px;
+                                border-left: 1px solid #5c5c5c;
+                                border-right: 1px solid #5c5c5c;
+                            }
+                            .nav_bor2{padding-left: 8px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

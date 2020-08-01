@@ -1,0 +1,207 @@
+.pages_bigbox{
+    width: 100%;
+    height: 100%;
+    // 居中的盒子 里面是所有内容
+    .pages_box{
+        width: 1367px;
+        position: relative;
+        margin: 0 auto;
+        // 居中的大盒子
+        .pages_littlebox{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            height: 600px;
+            // background-color: greenyellow;
+            // 左侧小图
+            #small{
+                width: 450px;
+                height: 450px;
+                position: absolute;
+                left: 0;
+                top: 50px;
+                border: 1px solid blue;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                // 阴影框
+                #shadow{
+                    width: 200px;
+                    height: 200px;
+                    background-color: yellow;
+                    opacity: 0.3;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: none;
+                    z-index: 2;
+                }
+            }
+            // 右侧放大的图片
+            #big{
+                display: none;
+                width: 400px;
+                height: 400px;
+                position: absolute;
+                top: 50px;
+                
+                left: 500px;
+                overflow: hidden;
+                z-index: 20;
+                background-color: lavenderblush;
+                img{
+                    position: absolute;
+                    width: 900px;
+                    height: 900px;
+                }
+            }
+            // 假数据插入的地方
+            .data{
+                position: absolute;
+                right: 100px;
+                top: 50px;
+                width: 700px;
+                // background-color: red;
+                // 版本
+                .version{
+                    // float: left;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 21px;
+                    .news{
+                        float: left;
+                        display: block;
+                        background-color: #78bc27;
+                        margin-right: 10px;
+                        color: #fff;
+                        padding: 0 12px;
+                        line-height: 28px;
+                    }
+                }
+                // 型号
+                .type{
+                    height: 40px;
+                    line-height: 30px;
+                    font-size: 25px;
+                    color: #000000;
+                    margin-top: 10px;
+                }
+                // 配置
+                .brief{
+                    line-height: 56px;
+                    height: 56px;
+                    font-size: 18px;
+                    color: #000;
+                }
+                // 价格
+                .price{
+                    font-size: 24px;
+                    color: #78bc27;
+                    height: 40px;
+                    line-height: 40px;
+                }
+            }
+            .sc{
+                position: absolute;
+                top: 450px;
+                left: 570px;
+                width: 400px;
+                display: flex;
+                height: 20px;
+                justify-content: center;
+                align-items: center;
+                .sc_btn{
+                    width: 100px;
+                    margin: 0 auto;
+                    text-align: center;
+                    padding: 5px 10px;
+                    border-radius: 2px;
+                    box-shadow: 0 0 2px #f10;
+                    height: 20px;
+                    line-height: 20px;
+                    background: #fc1934;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 18px;
+                    cursor: pointer;
+                    a{
+                        color: #ffffff;
+                    }
+                }
+                .account{
+                    width: 100px;
+                    margin: 0 auto;
+                    text-align: center;
+                    padding: 5px 10px;
+                    border-radius: 2px;
+                    box-shadow: 0 0 2px #f10;
+                    height: 20px;
+                    line-height: 20px;
+                    background: #fc1934;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .model{
+            // background-color: indigo;
+            width: 700px;
+            position: absolute;
+            top: 250px;
+            right: 100px;
+            ul{
+                height: 40px;
+                li{
+                    float: left;
+                    font-size: 18px;
+                    button{
+                        font-size: 16px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            p{
+                font-size: 16px;
+                color: lawngreen;
+                height: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+
+
+    // 右边购物车
+    .sc_right{
+        position: absolute;
+        width: 270px;
+        border-left: 2px solid #b6b6b6;
+        right: -270px;
+        top: 400px;
+        height: 100%;
+        .sc_pic {
+            width: 40px;
+            height: 40px;
+            padding: 4px 6px;
+            background: url(../images/toolbars.png) #999 15px 15px no-repeat;
+            position: relative;
+            // background-color: #78bc27;
+            left: -52px;
+            top: 50%;
+            margin-top: -24px;
+            .sc_num {
+                position: absolute;
+                padding: 2px 8px;
+                border-radius: 50%;
+                background: red;
+                color: #fff;
+                top: -8px;
+                left: 20px;
+                z-index: 1;
+              }
+          }
+    }
+    
+}

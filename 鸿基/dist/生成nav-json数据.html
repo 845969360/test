@@ -1,0 +1,775 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title><script>var arr = [
+      {
+        title: "商务本",
+        hots: [
+          {
+            id: 0,
+            version: "CC715-71",
+            img: "https://gwimages.acer.com.cn/uploads/product/e3c301bbe34028a85b161d4c28a46d0c.jpg",
+            type:"CC715-71",
+            brief:"ConceptD 7 Ezel翻转创作本",
+            price: "暂无定价"
+          },
+          {
+            id: 1,
+            version: "CN715-71",
+            img: "https://gwimages.acer.com.cn/uploads/product/4c05cf26308bd0066461050f2cb026a7.png",
+            type:"ConceptD 7",
+            brief:" ConceptD 7静音创作本",
+            price: 24988.00
+          },
+          {
+            id: 2,
+            version: "暗影骑士 4 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/09ba2d01f710f83bc019aa70e2c8956f.png",
+            type:"AN515",
+            brief:" 宏碁(Acer)暗影骑士4 锐龙版 AN515-43",
+            price: 4799.0
+          },
+          {
+            id: 3,
+            version: "XZ0专业电竞",
+            img: "https://gwimages.acer.com.cn/uploads/product/156b781269e986b365f3a86a674f371c.png",
+            type:"32",
+            brief:"宏碁(Acer) XZ270X 27英寸全高清1500R曲面240Hz电竞显示器 ",
+            price:"暂无定价"
+          },
+          {
+            id: 4,
+            version: "战斧700 PH717-71",
+            img: "https://gwimages.acer.com.cn/uploads/product/85b983ec0986c697e06d0b5ec3c540e4.png",
+            type:"战斧700",
+            brief:" 掠夺者（Predator）17.3英寸游戏笔记本电脑",
+            price:19999.0
+          },
+          {
+            id: 5,
+            version: "蜂鸟Swift7 SF714-52T",
+            img: "https://gwimages.acer.com.cn/uploads/product/dc8f0943f46b9a453407452bfe089b63.png",
+            type:"SF714-52T",
+            brief:" 宏碁（Acer）Swift 7颠覆性轻薄本",
+            price:12988.0
+          },
+          {
+            id: 6,
+            version: "战斧300 PH317-53",
+            img: "https://gwimages.acer.com.cn/uploads/product/e828359351f4ae04295aa4a4e1d094e0.png",
+            type:"PH317",
+            brief:"掠夺者（Predator）17.3英寸游戏笔记本电脑 ",
+            price:15999.0
+          },
+          {
+            id: 7,
+            version: "战斧300 PH315-52",
+            img: "战斧300 PH315-52",
+            type:"PH315",
+            brief:"掠夺者（Predator）15.6英寸游戏笔记本电脑 ",
+            price:9999.0
+          },
+          {
+            id: 8,
+            version: "翼5 A515-52G",
+            img: "https://gwimages.acer.com.cn/uploads/product/7e840cc5acb6d037b1bf34cce88c74e2.png",
+            type:"翼5",
+            brief:" 宏碁（Acer）翼5 A515  15.6英寸大屏独显轻薄本",
+            price:4599.0
+          },
+          {
+            id: 9,
+            version: "刀锋500 PT515-51（144Hz）",
+            img: "https://gwimages.acer.com.cn/uploads/product/e4ec543ecc36eec1a715c773e81a3780.png",
+            type:"刀锋500 PT515-51",
+            brief:" 掠夺者（Predator）15.6英寸游戏笔记本电脑",
+            price:23999.0
+          }
+        ]},
+        // 暗影骑士
+        {
+        title: "暗影骑士",
+        hots: [
+          {
+            id: 10,
+            version: "暗影骑士 · 擎",
+            img: "https://gwimages.acer.com.cn/uploads/product/b0fea4e99e9f35603097515d55be77a6.png",
+            type:"暗影骑士 · 擎",
+            brief:"宏碁(Acer)暗影骑士 · 擎 ",
+            price:39996.0
+          },
+          {
+            id: 11,
+            version: "暗影骑士 4",
+            img: "https://gwimages.acer.com.cn/uploads/product/57f592fc68cc3c0a7ed1c3f0d13867d5.png",
+            type:"暗影骑士 4",
+            brief:" 宏碁(Acer)暗影骑士4 AN515-54",
+            price:38976.0
+          },
+          {
+            id: 12,
+            version: "暗影骑士 4 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/09ba2d01f710f83bc019aa70e2c8956f.png",
+            type:"暗影骑士 4 锐龙版",
+            brief:"宏碁(Acer)暗影骑士4 锐龙版 AN515-43 ",
+            price:23654.0
+          },
+          {
+            id: 13,
+            version: "暗影骑士 4 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/09ba2d01f710f83bc019aa70e2c8956f.png",
+            type:"暗影骑士 4 锐龙版",
+            brief:" 宏碁(Acer)暗影骑士4 锐龙版 AN515-43",
+            price:23156.0
+          },
+          {
+            id: 14,
+            version: "暗影骑士 轻刃",
+            img: "https://gwimages.acer.com.cn/uploads/product/f44f8fe7eb20b9cd80333ad4f98c8189.png",
+            type:"暗影骑士 轻刃",
+            brief:" 宏碁(Acer)暗影骑士 轻刃 AN715-51",
+            price:45236.0
+          },
+          {
+            id: 15,
+            version: "暗影骑士 3 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/be010964d260ceb1f5b1b97a8a81b56b.png",
+            type:"暗影骑士 3 锐龙版",
+            brief:" 宏碁（Acer）暗影骑士3锐龙版AN515-42 15.6英寸游戏笔记本",
+            price:45123.0
+          }
+          ]},
+
+
+        // 蜂鸟系列
+        {
+        title: "蜂鸟系列",
+        hots: [
+          {
+            id: 16,
+            version: "蜂鸟Swift7 SF714-52T",
+            img: "https://gwimages.acer.com.cn/uploads/product/dc8f0943f46b9a453407452bfe089b63.png",
+            type:"蜂鸟Swift7 SF714-52T",
+            brief:"宏碁（Acer）Swift 7颠覆性轻薄本 ",
+            price:21365.0
+          },
+          {
+            id: 17,
+            version: "蜂鸟Swift5 SF514-54GT",
+            img: "https://gwimages.acer.com.cn/uploads/product/2521d7f3a6032c91218c384d5f922232.png",
+            type:"蜂鸟Swift5 SF514-54GT",
+            brief:" 宏碁（Acer）Swift 5轻奢触控本",
+            price:12364.0
+          },
+          {
+            id: 18,
+            version: "蜂鸟Swift3 SF313-52",
+            img: "https://gwimages.acer.com.cn/uploads/product/0754916f3b192e18ab03ce3a6a9d619a.png",
+            type:"蜂鸟Swift3 SF313-52",
+            brief:" 宏碁（Acer）蜂鸟Swift3移动超能版",
+            price:23612.0
+          },
+          {
+            id: 19,
+            version: "蜂鸟Swift3 SF314-57G",
+            img: "https://gwimages.acer.com.cn/uploads/product/c5874ef2c25468a917ada671d2714ec3.png",
+            type:"蜂鸟Swift3 SF314-57G",
+            brief:" 宏碁（Acer）蜂鸟Swift 3时尚轻薄本",
+            price:9999.0
+          },
+          {
+            id: 20,
+            version: "蜂鸟Fun S40-51",
+            img: "https://gwimages.acer.com.cn/uploads/product/93d747ee15da145ca4159e731da605d4.png",
+            type:"蜂鸟Fun S40-51",
+            brief:" 宏碁（Acer）蜂鸟Fun轻薄本",
+            price:32009.0
+          },
+          {
+            id: 21,
+            version: "蜂鸟Swift3 SF314-56G",
+            img: "https://gwimages.acer.com.cn/uploads/product/5e2629c3be217a001c683ca6a6872be8.png",
+            type:"蜂鸟Swift3 SF314-56G",
+            brief:" 宏碁（Acer）蜂鸟Swift3微边框炫薄本",
+            price:29999.0
+          }
+        ]},
+
+
+        // 台式机
+        {
+        title: "台式机",
+        hots: [
+          {
+            id: 22,
+            version: "C27-865",
+            img: "https://gwimages.acer.com.cn/uploads/product/09428027890a1d73784d3edbb21e1344.png",
+            type:"C27-865",
+            brief:"宏碁（Acer）蜂鸟C27-865 27英寸大屏一体机台式电脑 ",
+            price:15666.0
+          },
+          {
+            id: 23,
+            version: "C24-710S",
+            img: "https://gwimages.acer.com.cn/uploads/product/b200876f85243ec2cf6afa7ea5696476.png",
+            type:"C24-710S",
+            brief:"宏碁（Acer）蜂鸟C24-710S 23.8英寸纤薄一体机台式电脑",
+            price:12222.0
+          },
+          {
+            id: 24,
+            version: "C27-962",
+            img: "https://gwimages.acer.com.cn/uploads/product/b53ab35b9457cca67e5856bf6c3568fb.png",
+            type:"C27-962",
+            brief:"宏碁（Acer）蜂鸟C27-865 27英寸大屏一体机台式电脑 ",
+            price:19999.0
+          },
+          {
+            id: 25,
+            version: "C24-963",
+            img: "https://gwimages.acer.com.cn/uploads/product/de59095cdc0547c011817846c2721142.png",
+            type:"C24-963",
+            brief:" 宏碁（Acer）蜂鸟C24-963 23.8英寸纤薄一体机台式电脑",
+            price:32152.0
+          },
+          {
+            id: 26,
+            version: "C24-962",
+            img: "https://gwimages.acer.com.cn/uploads/product/dc2e15fe9a6938670df29ac7be6e667c.png",
+            type:"C24-962",
+            brief:" 宏碁（Acer）蜂鸟C24-962 23.8英寸纤薄一体机台式电脑",
+            price:8999.0
+          },
+          {
+            id: 27,
+            version: "C24-865",
+            img: "https://gwimages.acer.com.cn/uploads/product/9ad79f8645f62fb4bf72876c83aa8aaa.png",
+            type:"C24-865",
+            brief:"宏碁（Acer）蜂鸟C24-865 23.8英寸纤薄一体机台式电脑 ",
+            price:9889.0
+          },
+          {
+            id: 28,
+            version: "C22-820",
+            img: "https://gwimages.acer.com.cn/uploads/product/34847770e7f50291c9cc07c3bb4e1193.png",
+            type:"C22-820",
+            brief:"宏碁（Acer）蜂鸟C22-820 21.5英寸纤薄一体机台式电脑",
+            price:23654.0
+          },
+        ]},
+
+
+        // 平板电脑
+        {
+        title: "平板电脑",
+        hots: [
+          {
+            id: 29,
+            version: "Switch5",
+            img: "https://gwimages.acer.com.cn/uploads/product/8261ac2ca8cb8d3b75118ced1d81c88e.png",
+            type:"Switch5",
+            brief:"宏碁（acer）Switch5 12英寸二合一平板电脑 ",
+            price:5999.0
+          },
+          {
+            id: 30,
+            version: "B3-A40",
+            img: "https://gwimages.acer.com.cn/uploads/product/4cded6e24d2fecb9a0469e663e28d5d6.png",
+            type:"B3-A40",
+            brief:" 宏碁（acer）平板电脑B3-A40",
+            price:3999.0
+          },
+          ]},
+
+          // 电竞专用
+          {
+
+        title: "电竞专用",
+        hots: [
+          {
+            id: 31,
+            version: "Orion 9000",
+            img: "https://gwimages.acer.com.cn/uploads/product/a420eaa9931f8053b7ca2fd5f8b44bb6.png",
+            type:"Orion 9000",
+            brief:" 掠夺者（Predator）Orion9000电竞台式机",
+            price:20000.0
+          },
+          {
+            id: 32,
+            version: "Orion5000",
+            img: "https://gwimages.acer.com.cn/uploads/product/47fc5ede40a06d76082f9188619b8e8b.gif",
+            type:"Orion5000",
+            brief:" 生为电竞 战为信仰",
+            price:30000.0
+          },
+          {
+            id: 33,
+            version: "X27",
+            img: "https://gwimages.acer.com.cn/uploads/product/ab3b1ada0cc28b5e8b3f35d910ef2bb4.png",
+            type:"X27",
+            brief:"宏碁(Acer)掠夺者 X27 4K高分IPS专业电竞显示器 ",
+            price:19999.0
+          },
+          {
+            id: 34,
+            version: "XB273K",
+            img: "https://gwimages.acer.com.cn/uploads/product/9f5ed310db457024be701b33983f8ca1.png",
+            type:"XB273K",
+            brief:"宏碁(Acer)掠夺者XB273K 27英寸4K高分IPS电竞 ",
+            price:15666.0
+          },
+          {
+            id: 35,
+            version: "XB271HU",
+            img: " https://gwimages.acer.com.cn/uploads/product/09dd8c2662b96ce14928333f055c5580.png",
+            type:"XB271HU",
+            brief:"宏碁（Acer）掠夺者XB271HU27英寸IPS窄边框2K屏",
+            price:3666.0
+          },
+          {
+            id: 36,
+            version: "X35",
+            img: "https://gwimages.acer.com.cn/uploads/product/9edc5f17f4be5a9c7a0f706fbd9c99ce.png",
+            type:"X35",
+            brief:" 宏碁(Acer)掠夺者X35 35英寸高分窄边框曲面电竞",
+            price:12222.0
+          },
+          {
+            id: 37,
+            version: "PMW510",
+            img: "https://gwimages.acer.com.cn/uploads/product/c738c396daa768ab1f83afaf65365817.png",
+            type:"PMW510",
+            brief:"漂亮的鼠标",
+            price:1234.0
+          },
+          {
+            id: 38,
+            version: "Cestus 300",
+            img: "https://gwimages.acer.com.cn/uploads/product/34bf4403e8e62ac32519953024996697.jpg",
+            type:"Cestus 300",
+            brief:" 人体工程学设计，掌握舒适控制灵巧",
+            price:999.0
+          },
+          {
+            id: 39,
+            version: "Aethon 500",
+            img: "https://gwimages.acer.com.cn/uploads/product/0afd8ecf919f8fd816a562e8bcfca7ed.jpg",
+            type:"Aethon 500",
+            brief:" 高级电竞键盘",
+            price:666.0
+          },
+          {
+            id: 40,
+            version: "PBG820",
+            img: "https://gwimages.acer.com.cn/uploads/product/136ba2226b54c2fec1fd35d2e5cbff4c.jpg",
+            type:"PBG820",
+            brief:"多用途卷盖轻便背包 ",
+            price:566.0
+          },
+          {
+            id: 41,
+            version: "Predator Thronos",
+            img: "https://gwimages.acer.com.cn/uploads/product/bc8703eb3e035ec2f1a5dce0eb320b9f.jpg",
+            type:"Predator Thronos",
+            brief:" 掠夺者游戏座舱",
+            price:5332.0
+          },
+          {
+            id: 42,
+            version: "Cestus 500",
+            img: "https://gwimages.acer.com.cn/uploads/product/9da6d454d6d151725d1b3948a11d21e8.jpg",
+            type:"Cestus 500",
+            brief:" 高级电竞鼠标",
+            price:452.0
+          },
+         
+    ]},
+    
+
+    // 商务本
+    {
+        title: "商务本",
+        hots: [
+          {
+            id: 43,
+            version: "CC715-71",
+            img: "https://gwimages.acer.com.cn/uploads/product/e3c301bbe34028a85b161d4c28a46d0c.jpg",
+            type:"CC715-71",
+            brief:"ConceptD 7 Ezel翻转创作本",
+            price: "暂无定价"
+          },
+          {
+            id: 44,
+            version: "CN715-71",
+            img: "https://gwimages.acer.com.cn/uploads/product/4c05cf26308bd0066461050f2cb026a7.png",
+            type:"ConceptD 7",
+            brief:" ConceptD 7静音创作本",
+            price: 24988.00
+          },
+          {
+            id: 45,
+            version: "暗影骑士 4 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/09ba2d01f710f83bc019aa70e2c8956f.png",
+            type:"AN515",
+            brief:" 宏碁(Acer)暗影骑士4 锐龙版 AN515-43",
+            price: 4799.0
+          },
+          {
+            id: 46,
+            version: "XZ0专业电竞",
+            img: "https://gwimages.acer.com.cn/uploads/product/156b781269e986b365f3a86a674f371c.png",
+            type:"32",
+            brief:"宏碁(Acer) XZ270X 27英寸全高清1500R曲面240Hz电竞显示器 ",
+            price:"暂无定价"
+          },
+          {
+            id: 47,
+            version: "战斧700 PH717-71",
+            img: "https://gwimages.acer.com.cn/uploads/product/85b983ec0986c697e06d0b5ec3c540e4.png",
+            type:"战斧700",
+            brief:" 掠夺者（Predator）17.3英寸游戏笔记本电脑",
+            price:19999.0
+          },
+          {
+            id: 48,
+            version: "蜂鸟Swift7 SF714-52T",
+            img: "https://gwimages.acer.com.cn/uploads/product/dc8f0943f46b9a453407452bfe089b63.png",
+            type:"SF714-52T",
+            brief:" 宏碁（Acer）Swift 7颠覆性轻薄本",
+            price:12988.0
+          },
+          {
+            id: 49,
+            version: "战斧300 PH317-53",
+            img: "https://gwimages.acer.com.cn/uploads/product/e828359351f4ae04295aa4a4e1d094e0.png",
+            type:"PH317",
+            brief:"掠夺者（Predator）17.3英寸游戏笔记本电脑 ",
+            price:15999.0
+          },
+          {
+            id: 50,
+            version: "战斧300 PH315-52",
+            img: "战斧300 PH315-52",
+            type:"PH315",
+            brief:"掠夺者（Predator）15.6英寸游戏笔记本电脑 ",
+            price:9999.0
+          },
+          {
+            id: 51,
+            version: "翼5 A515-52G",
+            img: "https://gwimages.acer.com.cn/uploads/product/7e840cc5acb6d037b1bf34cce88c74e2.png",
+            type:"翼5",
+            brief:" 宏碁（Acer）翼5 A515  15.6英寸大屏独显轻薄本",
+            price:4599.0
+          },
+          {
+            id: 52,
+            version: "刀锋500 PT515-51（144Hz）",
+            img: "https://gwimages.acer.com.cn/uploads/product/e4ec543ecc36eec1a715c773e81a3780.png",
+            type:"刀锋500 PT515-51",
+            brief:" 掠夺者（Predator）15.6英寸游戏笔记本电脑",
+            price:23999.0
+          }
+        ]},
+        // 暗影骑士
+        {
+        title: "暗影骑士",
+        hots: [
+          {
+            id: 53,
+            version: "暗影骑士 · 擎",
+            img: "https://gwimages.acer.com.cn/uploads/product/b0fea4e99e9f35603097515d55be77a6.png",
+            type:"暗影骑士 · 擎",
+            brief:"宏碁(Acer)暗影骑士 · 擎 ",
+            price:39996.0
+          },
+          {
+            id: 54,
+            version: "暗影骑士 4",
+            img: "https://gwimages.acer.com.cn/uploads/product/57f592fc68cc3c0a7ed1c3f0d13867d5.png",
+            type:"暗影骑士 4",
+            brief:" 宏碁(Acer)暗影骑士4 AN515-54",
+            price:38976.0
+          },
+          {
+            id: 55,
+            version: "暗影骑士 4 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/09ba2d01f710f83bc019aa70e2c8956f.png",
+            type:"暗影骑士 4 锐龙版",
+            brief:"宏碁(Acer)暗影骑士4 锐龙版 AN515-43 ",
+            price:23654.0
+          },
+          {
+            id: 56,
+            version: "暗影骑士 4 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/09ba2d01f710f83bc019aa70e2c8956f.png",
+            type:"暗影骑士 4 锐龙版",
+            brief:" 宏碁(Acer)暗影骑士4 锐龙版 AN515-43",
+            price:23156.0
+          },
+          {
+            id: 57,
+            version: "暗影骑士 轻刃",
+            img: "https://gwimages.acer.com.cn/uploads/product/f44f8fe7eb20b9cd80333ad4f98c8189.png",
+            type:"暗影骑士 轻刃",
+            brief:" 宏碁(Acer)暗影骑士 轻刃 AN715-51",
+            price:45236.0
+          },
+          {
+            id: 58,
+            version: "暗影骑士 3 锐龙版",
+            img: "https://gwimages.acer.com.cn/uploads/product/be010964d260ceb1f5b1b97a8a81b56b.png",
+            type:"暗影骑士 3 锐龙版",
+            brief:" 宏碁（Acer）暗影骑士3锐龙版AN515-42 15.6英寸游戏笔记本",
+            price:45123.0
+          }
+          ]},
+
+
+        // 蜂鸟系列
+        {
+        title: "蜂鸟系列",
+        hots: [
+          {
+            id: 59,
+            version: "蜂鸟Swift7 SF714-52T",
+            img: "https://gwimages.acer.com.cn/uploads/product/dc8f0943f46b9a453407452bfe089b63.png",
+            type:"蜂鸟Swift7 SF714-52T",
+            brief:"宏碁（Acer）Swift 7颠覆性轻薄本 ",
+            price:21365.0
+          },
+          {
+            id: 60,
+            version: "蜂鸟Swift5 SF514-54GT",
+            img: "https://gwimages.acer.com.cn/uploads/product/2521d7f3a6032c91218c384d5f922232.png",
+            type:"蜂鸟Swift5 SF514-54GT",
+            brief:" 宏碁（Acer）Swift 5轻奢触控本",
+            price:12364.0
+          },
+          {
+            id: 61,
+            version: "蜂鸟Swift3 SF313-52",
+            img: "https://gwimages.acer.com.cn/uploads/product/0754916f3b192e18ab03ce3a6a9d619a.png",
+            type:"蜂鸟Swift3 SF313-52",
+            brief:" 宏碁（Acer）蜂鸟Swift3移动超能版",
+            price:23612.0
+          },
+          {
+            id: 62,
+            version: "蜂鸟Swift3 SF314-57G",
+            img: "https://gwimages.acer.com.cn/uploads/product/c5874ef2c25468a917ada671d2714ec3.png",
+            type:"蜂鸟Swift3 SF314-57G",
+            brief:" 宏碁（Acer）蜂鸟Swift 3时尚轻薄本",
+            price:9999.0
+          },
+          {
+            id: 63,
+            version: "蜂鸟Fun S40-51",
+            img: "https://gwimages.acer.com.cn/uploads/product/93d747ee15da145ca4159e731da605d4.png",
+            type:"蜂鸟Fun S40-51",
+            brief:" 宏碁（Acer）蜂鸟Fun轻薄本",
+            price:32009.0
+          },
+          {
+            id: 64,
+            version: "蜂鸟Swift3 SF314-56G",
+            img: "https://gwimages.acer.com.cn/uploads/product/5e2629c3be217a001c683ca6a6872be8.png",
+            type:"蜂鸟Swift3 SF314-56G",
+            brief:" 宏碁（Acer）蜂鸟Swift3微边框炫薄本",
+            price:29999.0
+          }
+        ]},
+
+
+        // 台式机
+        {
+        title: "台式机",
+        hots: [
+          {
+            id: 65,
+            version: "C27-865",
+            img: "https://gwimages.acer.com.cn/uploads/product/09428027890a1d73784d3edbb21e1344.png",
+            type:"C27-865",
+            brief:"宏碁（Acer）蜂鸟C27-865 27英寸大屏一体机台式电脑 ",
+            price:15666.0
+          },
+          {
+            id: 66,
+            version: "C24-710S",
+            img: "https://gwimages.acer.com.cn/uploads/product/b200876f85243ec2cf6afa7ea5696476.png",
+            type:"C24-710S",
+            brief:"宏碁（Acer）蜂鸟C24-710S 23.8英寸纤薄一体机台式电脑",
+            price:12222.0
+          },
+          {
+            id: 67,
+            version: "C27-962",
+            img: "https://gwimages.acer.com.cn/uploads/product/b53ab35b9457cca67e5856bf6c3568fb.png",
+            type:"C27-962",
+            brief:"宏碁（Acer）蜂鸟C27-865 27英寸大屏一体机台式电脑 ",
+            price:19999.0
+          },
+          {
+            id: 68,
+            version: "C24-963",
+            img: "https://gwimages.acer.com.cn/uploads/product/de59095cdc0547c011817846c2721142.png",
+            type:"C24-963",
+            brief:" 宏碁（Acer）蜂鸟C24-963 23.8英寸纤薄一体机台式电脑",
+            price:32152.0
+          },
+          {
+            id: 69,
+            version: "C24-962",
+            img: "https://gwimages.acer.com.cn/uploads/product/dc2e15fe9a6938670df29ac7be6e667c.png",
+            type:"C24-962",
+            brief:" 宏碁（Acer）蜂鸟C24-962 23.8英寸纤薄一体机台式电脑",
+            price:8999.0
+          },
+          {
+            id: 70,
+            version: "C24-865",
+            img: "https://gwimages.acer.com.cn/uploads/product/9ad79f8645f62fb4bf72876c83aa8aaa.png",
+            type:"C24-865",
+            brief:"宏碁（Acer）蜂鸟C24-865 23.8英寸纤薄一体机台式电脑 ",
+            price:9889.0
+          },
+          {
+            id: 71,
+            version: "C22-820",
+            img: "https://gwimages.acer.com.cn/uploads/product/34847770e7f50291c9cc07c3bb4e1193.png",
+            type:"C22-820",
+            brief:"宏碁（Acer）蜂鸟C22-820 21.5英寸纤薄一体机台式电脑",
+            price:23654.0
+          },
+        ]},
+
+
+        // 平板电脑
+        {
+        title: "平板电脑",
+        hots: [
+          {
+            id: 72,
+            version: "Switch5",
+            img: "https://gwimages.acer.com.cn/uploads/product/8261ac2ca8cb8d3b75118ced1d81c88e.png",
+            type:"Switch5",
+            brief:"宏碁（acer）Switch5 12英寸二合一平板电脑 ",
+            price:5999.0
+          },
+          {
+            id: 73,
+            version: "B3-A40",
+            img: "https://gwimages.acer.com.cn/uploads/product/4cded6e24d2fecb9a0469e663e28d5d6.png",
+            type:"B3-A40",
+            brief:" 宏碁（acer）平板电脑B3-A40",
+            price:3999.0
+          },
+          ]},
+
+            // 电竞专用
+            {
+
+title: "电竞专用",
+hots: [
+  {
+    id: 74,
+    version: "Orion 9000",
+    img: "https://gwimages.acer.com.cn/uploads/product/a420eaa9931f8053b7ca2fd5f8b44bb6.png",
+    type:"Orion 9000",
+    brief:" 掠夺者（Predator）Orion9000电竞台式机",
+    price:20000.0
+  },
+  {
+    id: 75,
+    version: "Orion5000",
+    img: "https://gwimages.acer.com.cn/uploads/product/47fc5ede40a06d76082f9188619b8e8b.gif",
+    type:"Orion5000",
+    brief:" 生为电竞 战为信仰",
+    price:30000.0
+  },
+  {
+    id: 76,
+    version: "X27",
+    img: "https://gwimages.acer.com.cn/uploads/product/ab3b1ada0cc28b5e8b3f35d910ef2bb4.png",
+    type:"X27",
+    brief:"宏碁(Acer)掠夺者 X27 4K高分IPS专业电竞显示器 ",
+    price:19999.0
+  },
+  {
+    id: 77,
+    version: "XB273K",
+    img: "https://gwimages.acer.com.cn/uploads/product/9f5ed310db457024be701b33983f8ca1.png",
+    type:"XB273K",
+    brief:"宏碁(Acer)掠夺者XB273K 27英寸4K高分IPS电竞 ",
+    price:15666.0
+  },
+  {
+    id: 78,
+    version: "XB271HU",
+    img: " https://gwimages.acer.com.cn/uploads/product/09dd8c2662b96ce14928333f055c5580.png",
+    type:"XB271HU",
+    brief:"宏碁（Acer）掠夺者XB271HU27英寸IPS窄边框2K屏",
+    price:3666.0
+  },
+  {
+    id: 79,
+    version: "X35",
+    img: "https://gwimages.acer.com.cn/uploads/product/9edc5f17f4be5a9c7a0f706fbd9c99ce.png",
+    type:"X35",
+    brief:" 宏碁(Acer)掠夺者X35 35英寸高分窄边框曲面电竞",
+    price:12222.0
+  },
+  {
+    id: 80,
+    version: "PMW510",
+    img: "https://gwimages.acer.com.cn/uploads/product/c738c396daa768ab1f83afaf65365817.png",
+    type:"PMW510",
+    brief:"漂亮的鼠标",
+    price:1234.0
+  },
+  {
+    id: 81,
+    version: "Cestus 300",
+    img: "https://gwimages.acer.com.cn/uploads/product/34bf4403e8e62ac32519953024996697.jpg",
+    type:"Cestus 300",
+    brief:" 人体工程学设计，掌握舒适控制灵巧",
+    price:999.0
+  },
+  {
+    id: 82,
+    version: "Aethon 500",
+    img: "https://gwimages.acer.com.cn/uploads/product/0afd8ecf919f8fd816a562e8bcfca7ed.jpg",
+    type:"Aethon 500",
+    brief:" 高级电竞键盘",
+    price:666.0
+  },
+  {
+    id: 83,
+    version: "PBG820",
+    img: "https://gwimages.acer.com.cn/uploads/product/136ba2226b54c2fec1fd35d2e5cbff4c.jpg",
+    type:"PBG820",
+    brief:"多用途卷盖轻便背包 ",
+    price:566.0
+  },
+  {
+    id: 84,
+    version: "Predator Thronos",
+    img: "https://gwimages.acer.com.cn/uploads/product/bc8703eb3e035ec2f1a5dce0eb320b9f.jpg",
+    type:"Predator Thronos",
+    brief:" 掠夺者游戏座舱",
+    price:5332.0
+  },
+  {
+    id: 85,
+    version: "Cestus 500",
+    img: "https://gwimages.acer.com.cn/uploads/product/9da6d454d6d151725d1b3948a11d21e8.jpg",
+    type:"Cestus 500",
+    brief:" 高级电竞鼠标",
+    price:452.0
+  },
+ 
+]},
+
+  ]
+
+    //一定要先去写数据结构，在数据结构中，如果你写错，能报错
+    // var str = JSON.stringify(arr);
+    var str = JSON.stringify(arr);
+    document.write(str);</script></head><body></body></html>
